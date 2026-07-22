@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "devisampadka/nginx-demo"
         //IMAGE_NAME = "047719618727.dkr.ecr.us-east-1.amazonaws.com/md-dj-demo"
-        IMAGE_TAG = "latest"
+        IMAGE_TAG = "1.31.3"
         CONTAINER = "nginx-container"
         PORT = "80"
     }
