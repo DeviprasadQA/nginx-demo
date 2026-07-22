@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-COPY ./HelloWorld.html /usr/share/nginx/html/index.html
+COPY ./Helloworld.html /usr/share/nginx/html/index.html
 
 EXPOSE 80
 
