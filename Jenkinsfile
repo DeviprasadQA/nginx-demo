@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "devisampadka/django-app"
+        IMAGE_NAME = "devisampadka/nginx-demo"
         //IMAGE_NAME = "047719618727.dkr.ecr.us-east-1.amazonaws.com/md-dj-demo"
         IMAGE_TAG = "latest"
-        CONTAINER = "django-container"
-        PORT = "8000"
+        CONTAINER = "nginx-container"
+        PORT = "80"
     }
     
     stages {
